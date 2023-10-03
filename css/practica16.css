@@ -1,0 +1,59 @@
+*
+{
+  background: #E2DD78;
+  padding: 0;
+  margin: 0;
+}
+header, nav, footer, #contenedor
+{
+  width: 100%;
+  margin-top: 1%;
+
+}
+body
+{
+  height: 100vh;
+}
+header, footer
+{
+  height: 10%;
+  background: #94E479;
+  border: #4C4F4F 2px solid;
+}
+nav
+{
+  height: 5%;
+  background: #45922B;
+  border: #4C4F4F 2px solid;
+}
+section
+{
+  display: flex;
+  height: 75%;
+  justify-content: space-around;
+}
+article, section
+{
+  height: 90%; 
+  margin-top: 1.5%;
+}
+article
+{
+  width: 20%;
+  background: #359A9C;
+  border: #4C4F4F 2px solid;
+}
+section
+{
+  width: 50%;
+  background: #e49733;
+  border: #4C4F4F 2px solid;
+}
+footer
+{
+  background: pink;
+}
+#contenedor
+{
+  background: #ebd4b5;
+}

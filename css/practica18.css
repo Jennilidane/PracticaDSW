@@ -1,0 +1,86 @@
+*
+  {
+    padding: 0;
+    margin: 0;
+  }
+  body
+  {
+    height: 100vh;
+  }
+  
+  /*Hace que el contenedor tenga borde redondeado, un color de fondo y el tamaño de ancho y alto*/
+  #contenedor
+  {
+    width: 100%;
+    height: 15%;
+    background: #3cbe8177;
+    border: #193f3f 2px solid;
+    border-radius: 10px;
+  }
+  /*Hace que el contenedor tenga borde redondeado, un color de fondo y el tamaño de ancho y alto y el margen*/
+  nav
+  {
+    height: 7vh;
+    width: 95%;
+    background: #0d534877;
+    margin-left: 1%;
+    border: #193f3f 2px solid;
+    border-radius: 10px;
+  }
+  /*Hace que el contenedor tenga borde redondeado, un color de fondo y el tamaño de ancho y alto*/
+  #contenedor2
+  {
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+    margin-left: 1%;
+    
+  }
+  /*Hace que el contenedor tenga borde redondeado, un color de fondo y el tamaño de ancho y 
+  alto y la disposición del contenedor*/
+  aside, #contenedor3
+  {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    width: 48%;
+    background: #0d534877;
+    
+  }
+    /*Hace que el contenedor tenga borde redondeado*/
+  #contenedor3
+  {
+    margin-right: 1%;
+    border-radius: 10px;
+  }
+    /*Hace que el contenedor tenga borde redondeado*/
+  aside,section
+  {
+    border: #193f3f 2px solid;
+    border-radius: 10px;
+  }
+  section
+  {
+    width: 100%;
+  }
+    /*Hace que el contenedor tenga borde redondeado, un color de fondo y el tamaño de ancho y 
+  alto y la disposición del contenedor*/
+  article
+  {
+    display: flex;
+    height: 25%;
+    background: #3b7c5677;
+    margin-left: 5%;
+    width: 90%;
+    border: #193f3f 2px solid;
+    border-radius: 10px;
+  }
+    /*Hace que el contenedor tenga borde redondeado, un color de fondo y el tamaño de ancho y 
+  alto y la disposición del contenedor*/
+  footer
+  {
+    height: 10vh;
+    background: #09704077;
+    border: #193f3f 2px solid;
+    border-radius: 10px;
+  }

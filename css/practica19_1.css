@@ -1,0 +1,174 @@
+*
+  {
+    font-family: 'Exo', sans-serif;
+    color: black;
+  }
+  body{
+    background-image: url('https://w0.peakpx.com/wallpaper/888/777/HD-wallpaper-black-and-white-cow-print-3-cow-print.jpg');
+  }
+    h2::first-letter
+    {font-size: 50px; color: rgb(25 200 18);
+    }
+
+    p{
+    text-indent: 2em;
+    }
+
+    a::before{content: "--> ";}
+
+    a
+    {
+      text-decoration: none;
+      color: purple;
+    }
+
+    abbr::after
+    {
+      content: " Abreviatura";
+      color: red;
+    }
+
+    abbr
+    {
+      text-decoration: none;
+      font-style: italic;
+    }
+
+    .circulos{list-style-type: circle;}
+
+    .estrella
+    {
+      list-style-image: url("../imagenes/estrella.png");
+    }
+
+    /*TABLA*/
+    table, th, td,tr{
+      border: black 1px solid;
+      border-spacing: 2px;
+      line-height: 2em;
+      padding: 5px;
+    }
+
+    th{
+      background: rgb(183 184 184);
+    }
+
+    td{padding: 0 .3em;}
+
+    th.dolar{
+      text-align: left;
+      background: rgb(250 220 180);
+    }
+
+    th.euro{
+      text-align: left;
+      background: rgb(250 220 180);
+    }
+
+    th.libra{
+      text-align: left;
+      background: rgb(250 220 180);
+    }
+
+    th.yen{
+      text-align: left;
+      background: rgb(250 220 180);
+    }
+
+    tr:nth-child(n+1) td{
+      text-align: right;
+    }
+
+    tr:nth-child(2n){
+      background: rgb(220 120 120);
+    }
+
+    tr:hover{
+      background: rgb(200 15 50);
+    }
+
+    /*FIGURAS*/
+
+    .cuadrado{
+      width: 160px;
+      height: 160px;
+      position: relative;
+      background: brown;
+      transition: 2s;
+    }
+    .circulo{
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      position: relative;
+      background: purple;
+      transition: 2s;
+    }
+    .cuadrado2{
+      width: 160px;
+      height: 160px;
+      position: relative;
+      background: yellow;
+      box-shadow: 5px 5px gray;
+      transform: rotate(45deg);
+      transition: 2s;
+    }
+    #contenedor1{
+      float: left;
+      display: flex;
+      height: 100%;
+      width: 75%;
+      justify-content: space-around;
+    }
+    .cuadrado:hover{
+      height: 0;
+      width: 260px;
+      padding-top: 260px;
+      position: relative;
+      background: red;
+    }
+    .circulo:hover{
+      background: pink;
+    }
+    .cuadrado2:hover{
+      transform: rotate(90deg);
+      background: skyblue;
+    }
+
+    .dolar1{
+        text-align: left;
+        background: rgb(41, 218, 41);
+        width: 160px;
+        height: 150px;
+      }
+  
+    .euro1{
+        text-align: left;
+        width: 4cm;
+        height: 2cm;
+      }
+  
+    .libra1{
+        text-align: left;
+        background: rgb(22, 180, 56);
+        width: 16mm;
+        height: 8mm;
+      }
+  
+    .yen1{
+        text-align: left;
+        width: 2in;
+        height: 1in;
+      }
+      .dolar2{
+        text-align: left;
+        background: rgb(41, 218, 41);
+        width: 160pt;
+        height: 150pt;
+      }
+  
+    .euro2{
+        text-align: left;
+        width: 7pc;
+        height: 4pc;
+      }

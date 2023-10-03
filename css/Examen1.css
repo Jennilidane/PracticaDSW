@@ -1,0 +1,65 @@
+*
+  {
+    padding: 0;
+    margin: 0;
+  }
+  body
+  {
+    height: 100vh;
+  }
+  
+  /*Hace que el contenedor tenga borde redondeado, un color de fondo y el tamaño de ancho y alto*/
+  header, nav, footer
+  {
+    width: 70%;
+    height: 50px;
+    background: #8b8d8c77;
+    border: #193f3f 2px solid;
+    border-radius: 10px;
+  }
+  #contenedor
+  {
+    display: flex;
+    width: 70%;
+    height: 350px;
+    justify-content: space-between;
+  }
+  section
+  {
+    width: 65%;
+    height: 350px;
+    background: #8b8d8c77;
+    border: #193f3f 2px solid;
+    border-radius: 10px;
+  }
+  aside
+  {
+    display: flex;
+    width: 30%;
+    height: 350px;
+
+    background: #8b8d8c77;
+    border: #193f3f 2px solid;
+    border-radius: 10px;
+  }
+ 
+  article
+  {
+    display: flex;
+    width: 90%;
+    height: 80px;
+    background: #51525177;
+    margin-left: 5%;
+    margin-top: 5px;
+    border: #242b2b 2px solid;
+    border-radius: 10px;
+  }
+  .contenedor1
+  {
+    background: none;
+    border: none ;
+    align-content: left;
+  }
+  /*Damaso Negrete Jennifer Lizeth
+  Grupo: 372
+  */

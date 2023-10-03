@@ -1,0 +1,79 @@
+    * {
+    font-family: 'Exo', sans-serif;
+    color: black;
+     }
+     body{
+        background-image: url('../Imagenes/vaca2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      img{
+        width: 100px;
+        height: 120px;
+      }
+    h2::first-letter{
+        font-size: 50px; color: rgb(231, 123, 34);
+    }
+
+    p{
+    text-indent: 2em;
+    }
+
+    a::before{content: "--> ";}
+
+    a
+    {
+      text-decoration: none;
+      color: purple;
+    }
+
+    abbr::after
+    {
+      content: " Abreviatura";
+      color: red;
+    }
+
+    abbr
+    {
+      text-decoration: none;
+      font-style: italic;
+    }
+    .vacal{
+        transition: 1s;
+      }
+    .vacal:hover{
+        height: 360px;
+        width: 360px;
+        position: relative;
+        transform: rotate(90deg);
+      }
+      .vacan{
+        transition: 1s;
+      }
+    .vacan:hover{
+        height: 360px;
+        width: 360px;
+        position: relative;
+        transform: rotate(90deg);
+      }
+      .vacac{
+        transition: 1s;
+      }
+    .vacac:hover{
+        height: 360px;
+        width: 360px;
+        position: relative;
+      }
+      .vacab{
+        transition: 1s;
+      }
+    .vacab:hover{
+        height: 360px;
+        width: 360px;
+        position: relative;
+      }
+      td, th, tr{
+        border: rgb(7, 7, 7) 2px solid;
+        border-collapse: collapse;
+      }
+      

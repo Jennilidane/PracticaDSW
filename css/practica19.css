@@ -1,0 +1,84 @@
+  p::first-line
+  {
+    color: rgb(83, 30, 102);
+  }
+  p::first-letter
+  {
+    font-size:40px; color: rgb(158, 16, 16);
+  }
+  h1::before
+  {
+    content: "Css - ";
+  }
+  p::after
+  {
+    content: ".";
+  }
+  p::selection
+  {
+    background:rgb(248, 25, 62);
+  }
+  tr:nth-child(2n)
+  {
+    background: rgb(80, 107, 21);
+  }
+  tr:nth-last-child(2n+1){
+    background: tgb(70%, 95%, 18%)
+  }
+  section p:nth-last-child(2n)
+  {
+    background: rgb(235, 73, 81);
+  }
+  td:empty
+  {
+    background: rgb(70%, 95%, 88%);
+  }
+  ul li{
+    border-bottom: 1px dotted #000;
+    font-size: 50px;
+  }
+  li:first-child
+  {
+    border-top: 1px dotted rgb(41, 185, 113);
+    background-color: rgb(17, 137, 153);
+    border-bottom: none;
+    list-style-type: square;
+  }
+  li:last-child
+  {
+    color: rgb(23, 184, 85);
+    list-style-type: square;
+  }
+  p:nth-last-of-type(2)
+  {
+    background: rgb(125, 178, 125);
+  }
+  em:nth-last-of-type(2)
+  {
+    background: rgb(125, 178, 125);
+  }
+  .uno{
+    font-size: 5em;
+  }
+  .dos{
+    font-size: 15ex;
+  }
+  .tres{
+    font-size: 4rem;
+  }
+  .cuadrado{
+    width: 40vw;
+    height: 30vh;
+    position: relative;
+    background: brown;
+    transition: 2s;
+  }
+
+  .circulo{
+    width: 40vmin;
+    height: 20vmax;
+    border-radius: 50%;
+    position: relative;
+    background: purple;
+    transition: 2s;
+  }
